@@ -1,0 +1,23 @@
+---
+title: "Course"
+author: "João Almeida"
+date: "2023-05-09"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+This is as R Markdown document containing notes from the PhD course Statistical Analysis of Behavioural Data.
+
+### session 1 (Rmarkdown)
+
+The Rmarkdown tool is tools that allow you to dynamically manage documents, which can include codes and their results. This tool has Markdown language that allows scripts to be converted to HTLM, PDF, and Microsoft word. Allows data to be more organized, making reproducibility easier. At the same time, it allows the document when being shared to be edited by both people.
+to open: go the file, new file, R markdown, put the title and select the type of format I want.to create the document in the desired format just click on knit
+To create Rmarkdown you must always open the package first
+```{r}
+library(rmarkdown)
+```
+
+if we put an asterisk after #, it comes in italics. If we put in 2 asterisks, it comes in bold. If we put 3 comes in bold and italic
